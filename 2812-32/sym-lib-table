@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SFE-Connectors")(type "Legacy")(uri "${KIPRJMOD}/symbols/SparkFun-KiCad-Libraries/Pre_v7/Libraries/SparkFun-Connectors.lib")(options "")(descr ""))
+  (lib (name "K7815JT_500R3_LB")(type "KiCad")(uri "${KIPRJMOD}/symbols/K7815JT_500R3_LB/K7815JT-500R3-LB.kicad_sym")(options "")(descr ""))
+)
