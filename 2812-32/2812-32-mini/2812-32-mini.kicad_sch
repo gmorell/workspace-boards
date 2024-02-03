@@ -1,0 +1,88 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e416e5f9-e8d8-4a47-a2d9-cd71aee3ec92)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 12.065 12.065) (size 128.27 81.28) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0a9af444-5d2e-4611-a708-8bd2ba32e86b)
+    (property "Sheetname" "USB-C" (at 12.065 11.3534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 12.065 93.9296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "2812-32"
+        (path "/21dc8540-b710-4f8f-8324-23f965257052" (page "3"))
+      )
+      (project "2812-32-mini"
+        (path "/e416e5f9-e8d8-4a47-a2d9-cd71aee3ec92" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 137.795 109.22) (size 69.85 34.925) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24f0d245-b862-430a-aa53-bf18240f0f16)
+    (property "Sheetname" "POWER" (at 137.795 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 137.795 144.7296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 137.795 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "2812-32-mini"
+        (path "/e416e5f9-e8d8-4a47-a2d9-cd71aee3ec92" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 161.925 50.8) (size 67.31 42.545) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 28caaf97-d5da-4ca2-83cf-276161b7f77e)
+    (property "Sheetname" "ESP-32" (at 161.925 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp32.kicad_sch" (at 161.925 93.9296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "2812-32-mini"
+        (path "/e416e5f9-e8d8-4a47-a2d9-cd71aee3ec92" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 21.59 109.22) (size 82.55 59.055) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 78b937d8-3961-424a-baaf-c08639b3027b)
+    (property "Sheetname" "CONN" (at 21.59 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CONN.kicad_sch" (at 21.59 168.8596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "2812-32-mini"
+        (path "/e416e5f9-e8d8-4a47-a2d9-cd71aee3ec92" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

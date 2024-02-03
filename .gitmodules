@@ -1,0 +1,3 @@
+[submodule "2812-32/2812-32/2812-32-mini/symbols/SparkFun-KiCad-Libraries"]
+	path = 2812-32/2812-32/2812-32-mini/symbols/SparkFun-KiCad-Libraries
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries
