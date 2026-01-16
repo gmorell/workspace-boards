@@ -3,4 +3,5 @@
   (lib (name "SFE-Connectors")(type "KiCad")(uri "${KIPRJMOD}/symbols/SparkFun-KiCad-Libraries/Symbols/SparkFun-Connector.kicad_sym")(options "")(descr ""))
   (lib (name "HUSB238")(type "KiCad")(uri "${KIPRJMOD}/symbols/HUSB238/HUSB238.kicad_sym")(options "")(descr ""))
   (lib (name "AONR21307")(type "KiCad")(uri "${KIPRJMOD}/symbols/AONR21307/2024-01-15_18-14-59.kicad_sym")(options "")(descr ""))
+  (lib (name "SI7611DN-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/symbols/SI7611DN-T1-GE3/2024-08-24_21-34-22.kicad_sym")(options "")(descr ""))
 )
